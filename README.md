@@ -3,14 +3,12 @@
 BindManager - DI container
 IDispatcher - simple implementation of MessageBus
 
-<br>
 ## Architecture:
 
 * AppRoot - main entry point
 * Mediators - classes that are contained logic
 * BaseView, BaseComponent - view classes
 * IDataContext - view data
-
 
 UIConfig – store information about UI prefabs
 PrefabReferences – store references to prefabs
@@ -20,7 +18,6 @@ Connection between logic and view are made buy LogicActions that transferred and
 Handlers:
 * ElementDestroyLogicAction -> DestroyActionHandler
 
-<br>
 ## Editor:
 Assets/Resources/Configs/Levels
 In this folder you can find level configs
@@ -29,11 +26,10 @@ To change tile status - click on tile
 “Black” - tile will be visible but locked for elements, you can’t put elements on this tile
 “Transparent” - tile will be ignored by game
 
-<br>
+
 ## Knowing issues:
 Sometimes you can't match elements
 
-<br>
 ## Technical depth:
 * Field generation algorithm
 * Match algorithm
