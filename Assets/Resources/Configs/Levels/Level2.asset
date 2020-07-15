@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7271264441e247a2ba24671a24aaa504, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: UnityEngine.CoreModule:UnityEngine:ScriptableObject
+  _configs:
+  - TileType: 1
+    X: 0
+    Y: 0
+  - TileType: 1
+    X: 0
+    Y: 1
+  - TileType: 1
+    X: 0
+    Y: 2
+  - TileType: 1
+    X: 0
+    Y: 3
+  - TileType: 1
+    X: 0
+    Y: 4
+  - TileType: 1
+    X: 1
+    Y: 0
+  - TileType: 1
+    X: 1
+    Y: 1
+  - TileType: 1
+    X: 1
+    Y: 2
+  - TileType: 1
+    X: 1
+    Y: 3
+  - TileType: 1
+    X: 1
+    Y: 4
+  - TileType: 1
+    X: 2
+    Y: 0
+  - TileType: 1
+    X: 2
+    Y: 1
+  - TileType: 1
+    X: 2
+    Y: 2
+  - TileType: 1
+    X: 2
+    Y: 3
+  - TileType: 1
+    X: 2
+    Y: 4
+  - TileType: 1
+    X: 3
+    Y: 0
+  - TileType: 1
+    X: 3
+    Y: 1
+  - TileType: 1
+    X: 3
+    Y: 2
+  - TileType: 1
+    X: 3
+    Y: 3
+  - TileType: 1
+    X: 3
+    Y: 4
+  - TileType: 1
+    X: 4
+    Y: 0
+  - TileType: 1
+    X: 4
+    Y: 1
+  - TileType: 1
+    X: 4
+    Y: 2
+  - TileType: 1
+    X: 4
+    Y: 3
+  - TileType: 1
+    X: 4
+    Y: 4
+  rows: 5
+  columns: 5
+  _tiles:
+  - Tiles: 0100000001000000010000000100000001000000
+  - Tiles: 0000000001000000010000000000000001000000
+  - Tiles: 0100000001000000000000000100000000000000
+  - Tiles: 0000000000000000010000000100000001000000
+  - Tiles: 0100000001000000000000000100000001000000
+  LevelIndex: 2
+  LevelSprite: {fileID: 0}
