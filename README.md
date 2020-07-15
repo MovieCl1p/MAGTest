@@ -1,8 +1,9 @@
 ## DI implementation:
 
 BindManager - DI container
+IDispatcher - simple implementation of MessageBus
 
-<br><br><br><br>
+<br>
 ## Architecture:
 
 * AppRoot - main entry point
@@ -19,8 +20,7 @@ Connection between logic and view are made buy LogicActions that transferred and
 Handlers:
 * ElementDestroyLogicAction -> DestroyActionHandler
 
-
-<br><br><br><br>
+<br>
 ## Editor:
 Assets/Resources/Configs/Levels
 In this folder you can find level configs
@@ -29,12 +29,11 @@ To change tile status - click on tile
 “Black” - tile will be visible but locked for elements, you can’t put elements on this tile
 “Transparent” - tile will be ignored by game
 
-<br><br><br><br>
+<br>
 ## Knowing issues:
 Sometimes you can't match elements
 
-
-<br><br><br><br>
+<br>
 ## Technical depth:
 * Field generation algorithm
 * Match algorithm
